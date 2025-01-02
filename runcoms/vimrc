@@ -1,0 +1,23 @@
+" Disables compatibility
+set nocompatible
+
+" Turn syntax highlighting on.
+syntax on
+
+" Wraps text instead of forcing a horizontal scroll
+set wrap
+
+" Tab configuration
+set tabstop=2 shiftwidth=2 expandtab
+
+" Enable auto completion menu after pressing TAB.
+set wildmenu
+
+" Make wildmenu behave like similar to Bash completion.
+set wildmode=list:longest
+
+" Status bar.
+set laststatus=2
+
+" Show what mode you are currently editing in
+set showmode
