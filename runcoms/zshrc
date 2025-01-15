@@ -18,6 +18,11 @@ reload() {
   source ~/.zshrc
 }
 
+# Aliases
+alias tf=terraform
+alias tfplan='terraform plan -out tf.plan'
+alias tfapply='terraform apply tf.plan'
+
 # >>>> Vagrant command completion (start)
 fpath=(/opt/vagrant/embedded/gems/gems/vagrant-2.4.3/contrib/zsh $fpath)
 compinit
