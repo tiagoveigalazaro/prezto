@@ -19,6 +19,7 @@ reload() {
 }
 
 # Aliases
+alias ll='ls -lha'
 alias tf=terraform
 alias tfplan='terraform plan -out tf.plan'
 alias tfapply='terraform apply tf.plan'
